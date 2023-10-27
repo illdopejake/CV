@@ -67,15 +67,18 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+\section{Positions}
+\cventry{2022}{Assistant Professor (Associate Senior Lecturer)}{Lund University}{Lund, Sweden}{}{}  % arguments 3 to 6 can be left empty
+
 \section{Education}
-\cventry{2015-2020}{PhD in Neuroscience}{McGill University}{Montreal, QC}{}{Supervisor: Alan C Evans}  % arguments 3 to 6 can be left empty
-\cventry{2010--2012}{BA in Neuroscience (completed)}{Hampshire College}{Amherst, MA}{}{}
-\cventry{2007--2009}{BA (started)}{Temple University}{Philadelphia, PA}{}{}
+\cventry{2020}{PhD in Neuroscience}{McGill University}{Montreal, QC}{}{Supervisor: Alan C Evans}  % arguments 3 to 6 can be left empty
+\cventry{2012}{BA in Neuroscience (completed)}{Hampshire College}{Amherst, MA}{}{}
+
 
 \section{Experience}
 \subsection{Research}
 
-\cventry{2020-}{Posdoctoral Fellow}{Lifespan Informatics and Neuroimaging Center, Department of Psychiatry, University of Pennsylvania}{Philadelphia, USA}{}{Supervisor: Theodore Satterthwaite.\newline{}
+\cventry{2020-2022}{Postdoctoral Fellow}{Lifespan Informatics and Neuroimaging Center, Department of Psychiatry, University of Pennsylvania}{Philadelphia, USA}{}{Supervisor: Theodore Satterthwaite.\newline{}
 Project: Examining neurodevelopmental origins of neurodegenerative disease risk across the lifespan
 }
 
@@ -127,27 +130,29 @@ Workshop}{Montreal, Canada}{}{Course available on github: \url{https://github.co
 \break
 
 \section{Academic Interests}
-\cvlistdoubleitem{Neurodegenerative disease}{Network models}
-\cvlistdoubleitem{Transcriptomics}{Polygenetic Risk Scores}
-\cvlistdoubleitem{Open Science}{Aging/Lifespan}
+\cvlistdoubleitem{Neurodegenerative disease}{Disese modeling}
+\cvlistdoubleitem{Multi-omics}{Cognitive resilience}
+\cvlistdoubleitem{Open Science}{Lifespan disease monitoring}
 
 \section{Skills}
 \cvdoubleitem{OS}{Mac, Linux}{Languages}{Python, R, MatLab (reluctantly)}
 \cvdoubleitem{Modalities}{sMRI, rsfMRI, PET, omics}{Software}{FSL, ANTs, SPM, nilearn}
-\cvitem{Specialties}{Machine learning, imaging genetics, data wrangling, longitudinal analysis}
+\cvitem{Specialties}{Machine learning, imaging-omics, data wrangling, longitudinal analysis}
 
 \section{Peer Review}
 \subsection{Journals}
-\cvlistdoubleitem{Nature Communications (x3)}{Science Advances (x2)}
+\cvlistdoubleitem{Nature Medicine}{Elife}
+\cvlistdoubleitem{Nature Communications}{Science Advances}
 \cvlistdoubleitem{JAMA Neurology}{JAMA Psychiatry}
-\cvlistdoubleitem{Neurology (x7)}{Brain (x4)}
+\cvlistdoubleitem{Neurology}{Brain}
 \cvlistdoubleitem{Annals of Neurology}{PNAS}
 \cvlistdoubleitem{Molecular Psychiatry}{Biological Psychiatry}
 \cvlistdoubleitem{Alzheimer's \& Dementia}{Alzheimer's \& Dementia: DADM}
-\cvlistdoubleitem{Cerebral Cortex}{Neuroimage (x7)}
+\cvlistdoubleitem{Cerebral Cortex}{Neuroimage}
 \cvlistdoubleitem{Advanced Science}{EJNMMI}
-\cvlistdoubleitem{Neuroimage: Clinical (x5)}{Neurobiology of Aging (x5)}
-\cvlistdoubleitem{Alzheimer's Research \& Therapy (x6)}{Scientific Data}
+\cvlistdoubleitem{Neuroimage: Clinical}{Neurobiology of Aging}
+\cvlistdoubleitem{Brain Communications}{Alzheimer's Research \& Therapy}
+\cvlistdoubleitem{}{Scientific Data}
 
 
 \subsection{Granting Agencies}
@@ -155,7 +160,8 @@ Workshop}{Montreal, Canada}{}{Course available on github: \url{https://github.co
 \cvlistitem{Alzheimer Forschung Initiative}
 
 \subsection{Conference Abstract review}
-\cvlistitem{Alzheimer's Association International Conference (x2)}
+\cvlistitem{Alzheimer's Association International Conference}
+\cvlistitem{Organization for Human Brain Mapping International Conference}
 
 \section{Open Science Contributions}
 \subsection{Published Datasets}
@@ -167,6 +173,7 @@ Workshop}{Montreal, Canada}{}{Course available on github: \url{https://github.co
 \cvlistitem{\href{https://nilearn.github.io}{Nilearn}}
 
 \section{Secured Funding}
+\cventry{2022-2027}{SciLifeLab and Wallenberg National Program for Data-Driven Life Science Fellowship (17,000,000 SEK)}{Knut and Alice Wallenberg Foundation}{}{}{}
 \cventry{2017-2020}{Vanier CGS Doctoral Award (\$150,000 CAD)}{Canadian Institute of Health Research}{}{}{}
 \cventry{2017-2019}{Alzheimer's Society Canada Research Competition (\$60,000 CAD) (declined)}{Alzheimer's Society Canada}{}{}{}
 \cventry{2017}{Alzheimer Nederland Fellowship (10,000 Euro)}{Alzheimer Nederland}{}{}{}
@@ -202,13 +209,17 @@ Workshop}{Montreal, Canada}{}{Course available on github: \url{https://github.co
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\subsection{}
+\subsection{}
+
 \renewcommand{\refname}{}
-\section{Publications}
+\section{Full List of Publications}
 \newcommand{\myname}[1]{\textbf{Jacob W. Vogel}}
 
 \nocite{*}
-\bibliographystyle{unsrt}
-\bibliography{me}                        % 'publications' is the name of a BibTeX file
+%\bibliographystyle{unsrt}
+\bibliographystyle{ama.bst}
+\bibliography{me2023}                        % 'publications' is the name of a BibTeX file
 
 \section{Oral Presentations}
 \subsection{Conference Session Chair Invitations}
@@ -324,9 +335,9 @@ Links to media content:
 
   \cvcolumn[0.7]{Email}{
   \begin{itemize}
+  \item oskar [dot] hansson [at] med [dot] lu [dot] se
   \item sattertt [at] pennmedicine [dot] upenn [dot] edu 
   \item alan [dot] evans [at] mcgill [dot] ca  
-  \item oskar [dot] hansson [at] med [dot] lu [dot] se
   \item jagust [at] berkeley [dot] edu
   \item gil [dot] rabinovici [at] ucsf [dot] edu
   \item sylvia [dot] villeneuve [at] mcgill [dot] edu
